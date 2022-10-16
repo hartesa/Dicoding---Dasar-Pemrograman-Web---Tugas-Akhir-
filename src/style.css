@@ -1,0 +1,249 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: block;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  background-color: hsla(20, 100%, 50%, 0.5);
+  width: 100%;
+  left: -0px;
+}
+
+.nav-button {
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.nav-button.active .nav-button.focus {
+  background-color: salmon;
+  color: antiquewhite;
+}
+.nav-button:hover {
+  background-color: salmon;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+#content {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-height: 1000px;
+}
+
+#content1 {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: justify;
+  max-width: 400px;
+  max-height: 200px;
+  margin: 10px;
+  font-size: 16px;
+  overflow: scroll;
+  color: lightslategray;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  margin: 20px;
+}
+
+img {
+  height: 400px;
+  max-width: 400px;
+  display: block;
+  margin: 0px auto;
+  border-radius: 20px;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: chocolate;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightslategray;
+}
+
+footer a:hover {
+  color: salmon;
+}
+
+@media only screen and (min-width: 715px) {
+  body {
+    background-color: antiquewhite;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    display: block;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    background-color: hsla(20, 100%, 50%, 0.5);
+    width: 100%;
+    left: -0px;
+  }
+
+  .nav-button {
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+  .nav-button.active .nav-button.focus {
+    background-color: salmon;
+    color: antiquewhite;
+  }
+  .nav-button:hover {
+    background-color: salmon;
+    color: antiquewhite;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #content {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    max-height: 800px;
+  }
+
+  #content1 {
+    text-align: justify;
+    max-width: 350px;
+    max-height: 400px;
+    font-size: 16px;
+    overflow: scroll;
+    color: lightslategray;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+  }
+
+  img {
+    height: 400px;
+    max-width: 300px;
+    display: block;
+    border-radius: 20px;
+    margin-left: 30px;
+  }
+
+  footer {
+    font-size: 12px;
+    text-align: center;
+    color: chocolate;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: lightslategray;
+  }
+
+  footer a:hover {
+    color: salmon;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  nav {
+    display: block;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    background-color: hsla(20, 100%, 50%, 0.5);
+    width: 100%;
+    left: -0px;
+  }
+
+  .nav-button {
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  .nav-button.active .nav-button.focus {
+    background-color: salmon;
+    color: antiquewhite;
+  }
+  .nav-button:hover {
+    background-color: salmon;
+    color: antiquewhite;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  #content {
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    max-height: 800px;
+  }
+
+  #content1 {
+    text-align: justify;
+    max-width: 400px;
+    max-height: 500px;
+    margin: 10px;
+    font-size: 13px;
+    overflow: scroll;
+    color: lightslategray;
+  }
+
+  img {
+    height: 500px;
+    max-width: 500px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+  }
+
+  footer {
+    text-align: center;
+    color: chocolate;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: lightslategray;
+  }
+
+  footer a:hover {
+    color: salmon;
+  }
+}
