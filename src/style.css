@@ -84,6 +84,22 @@ footer a:hover {
   color: salmon;
 }
 
+aside {
+  position: absolute;
+  right: 10px;
+  top: 100px;
+}
+
+#img-foto {
+  width: 50px;
+  height: auto;
+  border-radius: 50px;
+}
+#name {
+  position: relative;
+  right: -5px;
+}
+
 @media only screen and (min-width: 715px) {
   body {
     background-color: antiquewhite;
@@ -123,14 +139,12 @@ footer a:hover {
   }
 
   #content {
-    margin: 10px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 700px;
     align-items: center;
     justify-content: center;
-    max-height: 800px;
+    max-height: 600px;
   }
 
   #content1 {
@@ -165,6 +179,22 @@ footer a:hover {
 
   footer a:hover {
     color: salmon;
+  }
+  aside {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    text-align: right;
+  }
+
+  #img-foto {
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+  }
+  #name {
+    position: relative;
+    right: 5px;
   }
 }
 
@@ -245,5 +275,20 @@ footer a:hover {
 
   footer a:hover {
     color: salmon;
+  }
+  aside {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+  }
+
+  #img-foto {
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+  }
+  #name {
+    position: relative;
+    right: 0px;
   }
 }
